@@ -1,0 +1,293 @@
+
+@media (max-width:875px) {
+    
+    .home{
+
+        background-position: center ;
+        height: 100vh;
+       
+    
+    }
+
+
+    .nav-bar2 a{
+      display:flex;
+      flex-direction: column;
+      display: none;
+    }
+
+
+    .logo{
+        font-size:1.3rem;
+    }
+    
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+
+
+    .burger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .burger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .burger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+   
+    .nivo{
+        position: fixed;
+        
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        transition: 0.3;
+      }
+
+      .nivo.active{
+        display: block;
+    }
+
+
+
+
+}
+
+@media (max-width:875px) {
+
+    .index-title{
+    text-align: center;
+    width:auto;
+    font-size:2rem;
+    padding-top: 2rem;
+}
+
+.index-phrase{
+    
+    margin-top: 35rem;
+    font-size:large;
+}
+
+.see-button{
+    font-size:1rem;
+    padding:0.6rem 2.2rem
+   
+}
+
+}
+
+
+@media (max-width:875px) {
+
+    .section-title{
+
+        font-size:1rem;
+        margin-top: 20%;
+    }
+
+    .comment-photo{
+
+        height: 3rem;
+        width: 3rem;
+        border-radius: 1rem;
+    }
+    .comment-text{
+        
+        width: 90%;
+        font-size:13px;
+        border-radius: 1rem;
+        color: aliceblue;
+        padding: 1.7rem;
+        background-color: rgb(75, 65, 65);
+    
+    }
+    
+    .comment-holder{
+    
+        display: flex;
+        flex-wrap: wrap;
+        gap:2rem;
+        justify-content: center;
+        margin-left: 2rem;
+        margin-top: 5%;
+    }
+
+    .rating{
+        font-size:10px;
+        height: 23px;
+        }
+
+    
+}
+
+
+@media (max-width:875px){
+
+    .faq-cont{
+        
+        display:flex;
+        flex-wrap: wrap;
+        margin-top: 5%;
+    }
+    .faq-dis{
+        width:22rem;
+        color: white;
+        font-size:0.8em;
+        margin-top: 5rem;
+    }
+    
+    .quas1{
+    
+        font-size: 0.8rem;
+        width: 22rem;
+        border-radius:1rem;
+        padding:1rem 2rem;
+        margin-top: 3rem;
+    }
+
+    .answer1{
+       
+        font-size: 0.8rem;
+        width: 22rem;
+        padding:1rem 2rem;
+        
+    }
+    
+}
+
+
+
+@media (max-width:875px){
+
+    .category-wall img{
+        text-align: end;
+        height: 13rem;
+        
+        
+    }
+    .category-wall h1{
+        font-size:2.4rem;
+    }
+
+    
+
+.yamhom{
+
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.yamhom img{
+
+    height:26rem;
+}
+
+.yamhom img:hover{
+
+    height:27rem;    
+ }
+
+.cta-t{
+
+    margin-top:2rem;
+    margin-right: 1.5rem;
+}
+
+.cta-t1{
+    width: 30rem;
+    font-size:1.3rem;
+    color: white;
+    padding: 3rem 3rem;
+    margin-top: 10%;
+
+}
+
+}
+
+
+
+@media (max-width:875px){
+    
+.info-colacter{
+
+    font-size:large;
+    margin-top:30%;
+    gap:2rem;
+    }
+    
+    .info-colacter input[type="text"]{
+
+        height:3rem;
+        width:9rem;
+        padding: 1rem;
+        font-size: small;
+        
+    }
+    .info-colacter input[type="email"],input[type="password"]{
+
+        height:3rem;
+        width:20rem;
+        padding: 1rem;
+        font-size:small;
+        color: #fff;
+    }
+ 
+.gender{
+
+    margin:2rem;;
+    font-size:medium;
+    gap:1rem;
+
+}
+.sign-in button{
+
+    width:8rem;
+    padding:1rem;
+    border-radius:2rem;
+    color: #fff;
+    background: none;
+
+}
+.foot{
+
+    font-size: small;
+    margin:20% 0 5%;
+}
+
+}
+
+@media (max-width:875px){
+
+
+    .category{
+        justify-content: center;
+        gap: 3rem;
+        margin: 30%  5%;
+        
+    }
+
+    .category img{
+       
+        height: 17rem;
+
+    }
+    
+    .tito img{
+        height: 1.7rem;
+    margin-left:1em;
+    }
+    .tito{
+        font-size: small;
+    margin-left:2rem;
+    }
+
+}
+    
