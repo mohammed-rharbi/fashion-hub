@@ -1,11 +1,11 @@
 
 
-const burger = document.querySelector(".burger");
+const berger = document.querySelector(".burger");
 const nivo = document.querySelector(".nivo");
 
 
-burger.addEventListener("click", () => {
-    burger.classList.toggle("active");
+berger.addEventListener("click", () => {
+     berger.classList.toggle("active");
      nivo.classList.toggle("active");
 })
 

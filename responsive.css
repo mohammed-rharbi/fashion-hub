@@ -13,7 +13,7 @@
     .nav-bar2 a{
       display:flex;
       flex-direction: column;
-      display: none;
+      margin: 0;
     }
 
 
@@ -26,8 +26,7 @@
         cursor: pointer;
     }
 
-
-
+    
     .burger.active .bar:nth-child(2){
         opacity: 0;
     }
@@ -39,8 +38,8 @@
     }
    
     .nivo{
-        position: fixed;
-        
+        position: absolute;
+        display: none;
         top: 70px;
         gap: 0;
         flex-direction: column;
@@ -51,9 +50,15 @@
       }
 
       .nivo.active{
-        display: block;
+        left: 0;
+        display: flex !important;
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 1rem;
     }
-
+    .nivo.active a{
+        display: block  !important;
+    }
 
 
 
