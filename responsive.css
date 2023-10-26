@@ -171,13 +171,14 @@
 @media (max-width:875px){
 
     .category-wall img{
-        text-align: end;
-        height: 13rem;
+        height: 15rem;
+        width: 20rem;
         
         
     }
     .category-wall h1{
-        font-size:2.4rem;
+
+        font-size:3rem;
     }
 
     

@@ -1,5 +1,7 @@
 
 
+/*burger-menu*/
+
 const berger = document.querySelector(".burger");
 const nivo = document.querySelector(".nivo");
 
@@ -9,17 +11,12 @@ berger.addEventListener("click", () => {
      nivo.classList.toggle("active");
 })
 
+/*burger-menu*/
 
 
 
 
-
-
-
-
-
-
-
+/*FAQ*/
 
 function toggleAnswer(question) {
     const answer = question.nextElementSibling;
@@ -30,3 +27,4 @@ function toggleAnswer(question) {
     }
 }
 
+/*FAQ*/
