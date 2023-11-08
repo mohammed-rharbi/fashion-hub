@@ -28,3 +28,31 @@ function toggleAnswer(question) {
 }
 
 /*FAQ*/
+
+
+ 
+
+/*form validation*/
+
+function validateForm() {
+    const firstName = document.getElementById('user-n').value;
+    const lastName = document.getElementById('user-ln').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const maleGender = document.getElementById('male');
+    const femaleGender = document.getElementById('female');
+
+    if (firstName === '' || lastName === '' || email === '' || password === '') {
+        alert('All fields are required');
+        return false;
+    }
+
+    if (!maleGender.checked && !femaleGender.checked) {
+        alert('Please select your gender');
+        return false;
+    }
+
+    return true;
+}
+
+/*form validation*/

@@ -1,4 +1,7 @@
 
+
+/*home*/
+
 @media (max-width:875px) {
     
     .home{
@@ -9,6 +12,8 @@
     
     }
 
+
+    /*nav menu*/
 
     .nav-bar2 a{
       display:flex;
@@ -60,6 +65,7 @@
         display: block  !important;
     }
 
+    /*nav menu*/
 
 
 }
@@ -75,7 +81,7 @@
 
 .index-phrase{
     
-    margin-top: 35rem;
+    margin-top:22rem;
     font-size:large;
 }
 
@@ -87,19 +93,25 @@
 
 }
 
+/*  home  */
+
+
+
+
+/*  CUst comments  */
 
 @media (max-width:875px) {
 
     .section-title{
 
-        font-size:1rem;
+        font-size:1.3rem;
         margin-top: 20%;
     }
 
     .comment-photo{
 
-        height: 3rem;
-        width: 3rem;
+        height:3.5rem;
+        width: 3.5rem;
         border-radius: 1rem;
     }
     .comment-text{
@@ -128,9 +140,13 @@
         height: 23px;
         }
 
-    
 }
 
+/*  CUst comments  */
+
+
+
+/* FAQ  */
 
 @media (max-width:875px){
 
@@ -165,8 +181,11 @@
     }
     
 }
+/* FAQ  */
 
 
+
+/* mean cate */
 
 @media (max-width:875px){
 
@@ -218,7 +237,11 @@
 
 }
 
+/*   mean category   */
 
+
+
+/*  join us  */
 
 @media (max-width:875px){
     
@@ -262,6 +285,12 @@
     background: none;
 
 }
+/* mean category */
+
+
+
+/* footer */
+
 .foot{
 
     font-size: small;
@@ -269,6 +298,11 @@
 }
 
 }
+
+/* footer */
+
+
+/* category */
 
 @media (max-width:875px){
 
@@ -296,4 +330,5 @@
     }
 
 }
-    
+
+  /* category */  
